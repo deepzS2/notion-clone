@@ -6,8 +6,8 @@ import { useParams } from "next/navigation";
 
 import { Banner } from "./banner";
 import { Menu } from "./menu";
-import { Title } from "./title";
 import { Publish } from "./publish";
+import { Title } from "./title";
 
 type NavbarProps = {
   isCollapsed: boolean;
